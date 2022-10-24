@@ -11,7 +11,7 @@ class DieRolling {
     // useing get set method for Face of side
     var faceofside = 0  // to get intiger for face of side
 
-    constructor() {  // useing Constructors for DiceRoll
+    constructor() {  // using Constructors for DiceRoll
         Name = "d6" // dice name is d6
         Numberofside = 6
         rolling()
@@ -19,7 +19,7 @@ class DieRolling {
 
     constructor(Numofside: Int) {
         this.Numberofside = Numofside
-        Name = "d$Numberofside" // Name is to d and Number of Diceside
+        Name = "d$Numberofside" 
         rolling()
     }
 
