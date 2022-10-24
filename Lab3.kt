@@ -1,14 +1,14 @@
 // Student id :- #A00227051
 // Student Name :- Rounak Patel
 class DieRolling {
-    // useing get set method for Name
+    // using get set method for Name
     var Name : String private set
 
     private var Numberofside : Int
 
 
 
-    // useing get set method for Face of side
+    // using get set method for Face of side
     var faceofside = 0  // to get intiger for face of side
 
     constructor() {  // using Constructors for DiceRoll
@@ -47,7 +47,7 @@ class DieRolling {
         @JvmStatic
         fun main(args: Array<String>) {
             println("Defualt DiceName :- D6") // DiceName is d6
-            val d6 = DieRolling() // get object d6 for diceRolling
+            val d6 = DieRolling() // to get object d6 for diceRolling
             println("Face of Dice :- " + d6.faceofside)
             println("Roll the d6...") // Roll the dice
             d6.rolling()
